@@ -47,8 +47,8 @@ class ProductServiceImplTest {
 
     @Test
     void save() {
-        ProductInfo productInfo = new ProductInfo("123457","可口可乐",new BigDecimal("4.99"),
-                999,"透心凉心飞扬","http://xxxx.jpg",0,1);
+        ProductInfo productInfo = new ProductInfo("123458","百事可乐",new BigDecimal("4.99"),
+                999,"透心凉心飞扬","http://xxxx.jpg",0,5);
         ProductInfo result = productService.save(productInfo);
         Assert.assertNotNull(result);
     }
